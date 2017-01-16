@@ -8,4 +8,4 @@ RUN yum install -y certbot
 
 VOLUME /etc/letsencrypt/archive
 
-ENTRYPOINT ["certbot", "certonly", "-n", "--agree-tos", "--webroot", "--webroot-path", "/web"]
+ENTRYPOINT ["certbot", "certonly", "-n", "--agree-tos", "--webroot", "--webroot-path", "/web", "-d"]
