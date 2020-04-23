@@ -11,7 +11,7 @@ This Docker image helps with the creation of [Let’s Encrypt](https://letsencry
 
 It uses the [Certbot](https://certbot.eff.org/) client by the [Electronic Frontier Foundation](https://www.eff.org/) to request and store the certificate and related files.
 
-Installation from [Docker registry hub](https://registry.hub.docker.com/u/fauria/letsencrypt/).
+Installation from [Docker registry hub](https://registry.hub.docker.com/r/fauria/letsencrypt/).
 ----
 
 Pull the image using the following command:
